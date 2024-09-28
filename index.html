@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    
+    <!-- navbar section -->
+    <header class="fixed z-10 w-full backdrop-blur-sm bg-white-800/20">
+        <nav class="relative flex flex-row items-center justify-between px-5 py-5 text-lg uppercase content__center">
+          <div class="logo flex-[0.3] font-bold text-lg">
+            <a href="#"> Fashion </a>
+          </div>
+  
+          <ul class="fixed flex flex-col top-[68px] left-0 right-0 bg-blue-500 h-[calc(100vh-68px)] w-full text-center gap-7 transition-transform ease-in-out duration-[0.7s] bg-white/50 -translate-x-[101%] lg:relative lg:flex-row lg:-translate-x-0 lg:bg-transparent lg:h-full lg:top-0 lg:justify-center" id="nav-menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">Lookbook</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pages</a>
+            </li>
+            <li>
+              <a href="#">BLogs</a>
+            </li>
+          </ul>
+  
+          <div class="">
+            <ul class="flex flex-row items-center justify-center gap-7">
+              <li>
+                <a href=""><ion-icon name="search-outline"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="heart-outline"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-toggle cursor-pointer lg:hidden" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </nav>
+      </header>
+    <!-- navbar section end -->
+    <!--Hero section-->
+    <section class="relative pt-[68px] mb-5">
+      <div>
+        <img src="./asset/img/hero.png" alt="hero-image" class="w-full object-cover object-center h-[600px] md:h-full"/>
+
+        <div class="absolute bottom-1/4 flex flex-col justify-start p-5 overflow-hidden text-base font-medium md:right-0 xl:pr-20 2xl:pr-56 md:text-lg">
+          <h2>New Trend</h2>
+          <h1 class="text-[25px] leading-normal md:text-4xl md:leading-normal 2xl:text-[80px] font-bold">COLLUSION</h1>
+          <p>An exclusive selection of this season's trends</p>
+          <div class="flex flex-row gap-8 my-5 lg:my-8">
+            <button type="button" class="py-1 px-7 text-white bg-black-text">Discover</button>
+            <button type="button" class="py-1 px-7 text-white bg-black-text">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero section End-->
+     
+    <!-- category section -->
+    <section class="px-5 section__spacing-y content__center">
+      
+      <div class="grid grid-flow-row gap-6 justify-items-center lg:justify-items-stretch lg:grid-flow-col w-full lg:h-[574px] lg:w-full">  
+        
+        <div class="lg:col-span-2 cursor-pointer group relative hover:scale-[1.01] ease-in-out">
+          <img class="w-[300px] h-[300px] object-cover object-top lg:w-full lg:h-p[286.8px]"  src="./asset/img/cat-man1.png" alt="man"/>
+          <div class="absolute bottom-0 left-0 px-5 overflow-hidden z-1 w-full h-full group-hover:bg-black/30 transition duration-300">
+            <p class="flex flex-row items-center justify-center h-full uppercase text-white opacity-0 group-hover:opacity-100">Category Name</p>
+          </div>
+        </div>
+        
+        <div class="lg:col-span-1 cursor-pointer group relative hover:scale-[1.01] ease-in-out">
+          <img class="w-[300px] h-[300px] object-cover object-top lg:w-full lg:h-[256.15px]" src="./asset/img/cat-women1.png" alt="Women"/>
+          <div class="absolute bottom-0 left-0 px-5 overflow-hidden z-1 w-full h-full group-hover:bg-black/30 transition duration-300">
+            <p class="flex flex-row items-center justify-center h-full uppercase text-white opacity-0 group-hover:opacity-100">Category Name</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-1 cursor-pointer group relative hover:scale-[1.01] ease-in-out">
+          <img class="w-[300px] h-[300px] object-cover object-top lg:w-full lg:h-[256.15px]" src="./asset/img/cat-women2.png" alt="Women"/>
+          <div class="absolute bottom-0 left-0 px-5 overflow-hidden z-1 w-full h-full group-hover:bg-black/30 transition duration-300">
+            <p class="flex flex-row items-center justify-center h-full uppercase text-white opacity-0 group-hover:opacity-100">Category Name</p>
+          </div>
+        </div>
+        
+        <div class="lg:col-start-3 lg:row-start-1 lg:row-end-3 cursor-pointer group relative hover:scale-[1.01] ease-in-out">
+          <img class="w-[300px] h-[300px] object-cover object-top lg:w-full lg:h-[574px]" src="./asset/img/cat-man2.png" alt="man" />
+          <div class="absolute bottom-0 left-0 px-5 overflow-hidden z-1 w-full h-full group-hover:bg-black/30 transition duration-300">
+          <p class="flex flex-row items-center justify-center h-full uppercase text-white opacity-0 group-hover:opacity-100">Category Name </p>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- category section end -->
+    
+    <!-- women section -->
+    <section class="px-5 section__spacing-y content__center">
+      <div class="flex flex-col items-center justify-center ">
+        <h3 class="text-sm font-bold">WOMEN’S FASHION</h3>
+        <p class="text-sm font-normal text-center">
+            Shop our new arrivals from established brands
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 mt-16 justify-items-center md:grid-cols-2 lg:grid-cols-4">
+        
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/wf1.png" alt="womens"/>
+          <div class="flex flex-col">
+            <p class="text-sm font-light">IGURE</p>
+            <h4 class="">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-sm font-normal line-through">$229.00</p>
+              <h5 class="text-sm text-[#cf2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/wf2.png" alt="womens"/>
+          <div class="flex flex-col">
+            <p class="text-sm font-light">IGURE</p>
+            <h4 class="">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-sm font-normal line-through">$229.00</p>
+              <h5 class="text-sm text-[#cf2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/wf3.png" alt="womens"/>
+          <div class="flex flex-col">
+            <p class="text-sm font-light">IGURE</p>
+            <h4 class="">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-sm font-normal line-through">$229.00</p>
+              <h5 class="text-sm text-[#cf2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/wf4.png" alt="womens"/>
+          <div class="flex flex-col">
+            <p class="text-sm font-light">IGURE</p>
+            <h4 class="">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-sm font-normal line-through">$229.00</p>
+              <h5 class="text-sm text-[#cf2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- woman section end -->
+    <!--Men's section-->
+    <section
+      class="px-5 section__spacing-y content__center animate-fade-bottom"
+    >
+      <div class="flex flex-col items-center justify-center gap-4">
+        <h3 class="text-sm font-bold">MEN’S FASHION</h3>
+        <p class="text-[15px] font-normal text-center">
+          Shop our new arrivals from established brands
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 gap-6 mt-16 justify-items-center md:grid-cols-2 lg:grid-cols-4"
+      >
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/mf1.png" alt="men" />
+          <div class="flex flex-col gap-1">
+            <p class="text-[15px] font-light">IGURE</p>
+            <h4 class="text-[15px] font-semibold">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-[15px] font-normal line-through">$229.00</p>
+              <h5 class="text-[15px] text-[#CF2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/mf2.png" alt="men" />
+          <div class="flex flex-col gap-1">
+            <p class="text-[15px] font-light">IGURE</p>
+            <h4 class="text-[15px] font-semibold">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-[15px] font-normal line-through">$229.00</p>
+              <h5 class="text-[15px] text-[#CF2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img class="w-[268px] h-[371px]" src="./asset/img/mf4.png" alt="men" />
+          <div class="flex flex-col gap-1">
+            <p class="text-[15px] font-light">IGURE</p>
+            <h4 class="text-[15px] font-semibold">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-[15px] font-normal line-through">$229.00</p>
+              <h5 class="text-[15px] text-[#CF2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-9">
+          <img
+            class="w-[268px] h-[371px]"
+            src="./asset/img/cat-man2.png"
+            alt="womens"
+          />
+          <div class="flex flex-col gap-1">
+            <p class="text-[15px] font-light">IGURE</p>
+            <h4 class="text-[15px] font-semibold">
+              GREEN MUSCLE FIT POLO SHIRT
+            </h4>
+            <div class="flex flex-row gap-3">
+              <p class="text-[15px] font-normal line-through">$229.00</p>
+              <h5 class="text-[15px] text-[#CF2929]">$129.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Men's section End-->
+    <!--Banner section-->
+    <section class="relative section__spacing-y">
+      <div>
+        <img src="./asset/img/t19.png" alt="hero-image" class="w-full object-cover object-right h-[600px] md:h-full"/>
+
+        <div class="absolute bottom-1/4 flex flex-col justify-start text-base font-medium p-5 md:left-[10%] md:text-lg xl:pr-20 2xl:pr-56 overflow-hidden">
+          <h2>OWN THE DAY</h2>
+          <h1 class="text-xl leading-normal md:text-4xl md:leading-normal 2xl:text-[80px] font-bold">
+            TACHEN 19
+          </h1>
+          <div class="flex flex-row my-5 lg:my-[34px]">
+            <button type="button" class="py-1 text-white bg-black-text px-7">
+              SHOP COLLECTION
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Banner section End-->
+    <!--Footer section-->
+    <footer class="bg-[#f2f8fc] px-5">
+      <div class="flex flex-col gap-40 lg:flex-row content__center section__spacing-y">
+        <div class="flex flex-col flex-[0.7]">
+          <div class="logo flex-[0.3] font-bold text-2xl">
+            <a class="uppercase" href="#"> Fashion Commerce</a>
+          </div>
+          <p class="mt-4 mb-10">
+            We earned a reputation of being good at what we do. <br />Let us
+            take your online shop to new dimension in success!
+          </p>
+          <div class="flex flex-col gap-4">
+            <div class="flex flex-row items-center justify-start gap-5">
+              <ion-icon name="locate-outline"></ion-icon>
+              <p>Bantul, Ind</p>
+            </div>
+            <div>
+              <p class="underline">codewithpriyesh@gmail.com</p>
+              <p>123456789</p>
+            </div>
+            <div class="flex flex-row gap-4 social-icons">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <!--Right Section-->
+        <div class="flex flex-col flex-1 gap-16">
+          <!-- top section -->
+          <div class="">
+            <h6 class="font-bold text-2xl">RECIVE EMAIL UPDATES</h6>
+            <div class="mt-[17px] flex flex-row">
+              <input class="w-[532px] h-[45px] pl-5 rounded-lg bg-white" type="email" name="email" id="" placeholder="Your Email Address"/>
+              <button class="bg-white px-5 rounded-lg" type="submit" name="join">JOIN</button>
+            </div>
+          </div>
+          <!-- top section end -->
+
+          <div class="flex flex-col gap-10 md:flex-row justify-between">
+            <!--Shop link section-->
+            <div class="flex flex-col gap-6">
+              <h6 class="text-xl font-semibold">SHOP</h6>
+              <ul class="flex flex-col gap-5">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Outlet</a></li>
+                <li><a href="#">Lookbook</a></li>
+              </ul>
+            </div>
+            <!--Shop link section end-->
+
+            <!--FAQ link section-->
+            <div class="flex flex-col gap-6">
+              <h6 class="text-xl font-semibold">HELP</h6>
+              <ul class=""flex flex-col gap-5">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privecy Policy</a></li>
+                <li><a href="#">Tearms and conditions</a></li>
+                <li><a href="#">Return and Exchanges</a></li>
+              </ul>
+            </div>
+            <!--FAQ link section end-->
+
+            <!--ABout link section-->
+            <div class="flex flex-col gap-6">
+              <h6 class="text-sm font-semibold">ABOUT</h6>
+              <ul class="flex flex-col gap-5">
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Store Location</a></li>
+              </ul>
+            </div>
+            <!--ABout link section end-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer section End-->
+<script src="asset/js/script.js"></script>
+</body>
+</html>
